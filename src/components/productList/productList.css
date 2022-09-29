@@ -1,0 +1,41 @@
+.listContainer{
+    width: 100%;
+    height: calc(100vh - 10vh);
+}
+.listWrapper{
+    width: 100%;
+    margin-top: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tableContainer{
+    width: 80%;
+    align-items: center;
+}
+.tableContainer .top{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 15px;
+    margin-bottom: 1.5rem;
+}
+.top h2{
+    color: gray;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+.tableContainer .bottom{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.tableHead{
+    background: rgb(231, 229, 226);
+}
+.tableHead .tableCell{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+}
+

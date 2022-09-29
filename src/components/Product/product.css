@@ -1,0 +1,70 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 10vh);
+    margin-top: 15vh;
+}
+.container .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.container .wrapper .form__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+ .form__header, .form__container{
+    width: 80%;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+   
+}
+.container .wrapper .form__container{
+    border-top: 2px solid rgba(0, 0, 0, 0.47);
+    border-bottom: 2px solid rgba(19, 12, 12, 0.47);
+}
+.container .wrapper .form__container form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ .formInput,.controled__input, #productType{
+    width: 40%;
+}
+.container .wrapper .form__container .formInput input{
+    width: 100%;
+    padding: 7px;
+    outline: none;
+}
+.controled__input .controled-formInput input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+#productType{
+    padding: 0 5px;
+    display: flex;
+    height: 7vh;
+    margin-top: 20px;
+}
+.form__button .btn{
+    margin: 0 10px;
+    border: 0.3px dotted rgb(65, 82, 65);
+}
+.form__container .formInput label{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.form__container .formInput p{
+    color: rgb(196, 9, 9);
+    font-family: "Raleway", sans-serif;
+    font-size: .8rem;
+    margin-top: 3px;
+}
+

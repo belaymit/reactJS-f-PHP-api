@@ -1,0 +1,86 @@
+.home__header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14vh;
+    z-index: 1;
+}
+.home__header .home__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    padding: 15px;
+}
+.home__header .home__wrapper .product__title{
+    margin-left: 150px;
+}
+.home__header .home__wrapper .control__btns{
+    margin-right: 150px;
+}
+.home__header .home__wrapper .control__btns .btn:last-child {
+    margin-left: 20px;
+}
+.products{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.products .product__wrapper{
+    width: 80%;
+    margin-top: 40px;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid rgb(46, 45, 45);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.2rem;
+    padding: 2rem;
+}
+.products .product__wrapper .product{
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 10px 4px 20px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    position: relative;
+}
+.products .product__wrapper .product .product__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 15px 15px 15px;
+}
+.products .product__wrapper .product input{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+@media (max-width:900px){
+    .products .product__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+}
+@media (max-width:768px) {
+    .home__header .home__wrapper .product__title{
+        margin-left: 15px;
+    }
+    .home__header .home__wrapper .control__btns{
+        margin-right: 10px;
+    }
+    .products .product__wrapper {
+        display: block;
+    }
+    .products .product__wrapper .product{
+        margin-bottom: 20px;
+        padding: 40px;
+    }
+
+}
+
+
