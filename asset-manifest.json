@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactJS-f-PHP-api/static/css/main.a130c593.css",
+    "main.js": "/reactJS-f-PHP-api/static/js/main.96810618.js",
+    "index.html": "/reactJS-f-PHP-api/index.html",
+    "main.a130c593.css.map": "/reactJS-f-PHP-api/static/css/main.a130c593.css.map",
+    "main.96810618.js.map": "/reactJS-f-PHP-api/static/js/main.96810618.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a130c593.css",
+    "static/js/main.96810618.js"
+  ]
+}
